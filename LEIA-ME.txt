@@ -1,0 +1,19 @@
+DESKQUEST — PRACTICE WORKSPACE
+
+Marca atualizada para DeskQuest. O funcionamento da versão anterior foi preservado.
+
+LOGIN INICIAL
+- Administrador: ruan.nascimento
+- Usuário: rubens.teixeira
+- Senha inicial para ambos: 10203040
+
+No campo de login, o exemplo exibido agora é genérico: nome.sobrenome. O navegador não deve pré-preencher o usuário por configuração do campo (autocomplete off), embora extensões ou gerenciadores de senha possam ainda sugerir credenciais.
+
+IMPORTANTE
+Esta é uma aplicação HTML estática. A autenticação local é apenas uma barreira de demonstração, não uma proteção real contra acesso ao código ou aos dados. O progresso fica salvo no armazenamento do navegador e não sincroniza entre dispositivos. Para autenticação e sincronização reais, será necessário um backend, por exemplo Cloudflare Access para restringir a entrada e Supabase Auth + banco com políticas de acesso para contas e progresso.
+
+COMO USAR
+1. Extraia o ZIP.
+2. Abra index.html no Chrome ou Edge, ou publique o arquivo em hospedagem estática.
+3. Entre com um dos usuários iniciais.
+4. Ruan tem perfil MASTER e pode criar perfis locais pelo botão Gerenciar acessos.
